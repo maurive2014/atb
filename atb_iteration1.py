@@ -51,7 +51,7 @@ def test_atb_config1_like_gemm():
                 C_in[:, :] = 0
 
             # ATB:
-            # C_sum is buffer that lasts more than the A_sub.
+            # C_sum is buffer that lasts more than the A_sub
             # A_sub lives shorts and only holds 1/rho of the rows
             # rho = ratio MC/MA
             C_sum: Ty[Mt, Nt] = C_in
