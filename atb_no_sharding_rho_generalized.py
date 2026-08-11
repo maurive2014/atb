@@ -63,4 +63,4 @@ def run_atb(rho):
     else:
         print("MLIR_AIE_INSTALL_DIR unset. Skipping AIE backend test.")
 
-run_atb(2) # also works for 1, 2, but not for 4, 8.
+run_atb(2) # now it works for 1, 2, 4, 8
